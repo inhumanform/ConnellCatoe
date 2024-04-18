@@ -14,10 +14,10 @@ if __name__ == '__main__':
         Customer.query.delete()
         Review.query.delete()
 
-        item1 = Item(name="Duffle1", price= 399.99, image="drewnix/Development/code/phase-4/phase-4-project/LeatherSite/client/public/images/duffle.png", in_stock= 3, category= 'Accessory')
-        item2 = Item(name="Apron1", price= 99.99, image="drewnix/Development/code/phase-4/phase-4-project/LeatherSite/client/public/images/apron.png", in_stock= 3, category= 'Accessory')
-        item3 = Item(name="Purse1", price= 149.99, image="drewnix/Development/code/phase-4/phase-4-project/LeatherSite/client/public/images/purse.png", in_stock= 3, category= 'Accessory')
-        item4 = Item(name="Boot1", price= 249.99, image="drewnix/Development/code/phase-4/phase-4-project/LeatherSite/client/public/images/boot.jpg", in_stock= 10, category= 'Clothing')
+        item1 = Item(name="Duffle1", price= 399.99, image="/home/drewnix/Development/code/phase-4/phase-4-project/ConnellCatoe/src/assets/duffle.png", in_stock= 3, category= 'Accessory')
+        item2 = Item(name="Apron1", price= 99.99, image="/home/drewnix/Development/code/phase-4/phase-4-project/ConnellCatoe/src/assets/apron.png", in_stock= 3, category= 'Accessory')
+        item3 = Item(name="Purse1", price= 149.99, image="/home/drewnix/Development/code/phase-4/phase-4-project/ConnellCatoe/src/assets/purse.png", in_stock= 3, category= 'Accessory')
+        item4 = Item(name="Boot1", price= 249.99, image="/home/drewnix/Development/code/phase-4/phase-4-project/ConnellCatoe/src/assets/boot.jpg", in_stock= 10, category= 'Clothing')
         
         
 

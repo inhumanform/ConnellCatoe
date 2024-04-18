@@ -44,9 +44,3 @@
     font-weight: 600;
 }
 
-@media screen and (max-width: 940px) {
-    /* Styles for smaller screens */
-}
-@media screen and (max-width: 495px) {
-    /* Additional styles for even smaller screens */
-}
