@@ -24,11 +24,12 @@ const Navbar = () => {
                     {/* <h4>to a fault.</h4> */}
                 </div>
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="power" spy={true} smooth={true} duration={500}>Home</Link></a></li>
-                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="speed" spy={true} smooth={true} duration={500}>About</Link></a></li>
-                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="handling" spy={true} smooth={true} duration={500}>In Production</Link></a></li>
-                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="options" spy={true} smooth={true} duration={500}>Custom Leather</Link></a></li>
-                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Testimonials</Link></a></li>
+                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="home" spy={true} smooth={true} duration={500}>Home</Link></a></li>
+                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="about" spy={true} smooth={true} duration={500}>About</Link></a></li>
+                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="production" spy={true} smooth={true} duration={500}>In Production</Link></a></li>
+                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="testimonials" spy={true} smooth={true} duration={500}>Testimonials</Link></a></li>
+                    <li><a href="/"><Link onClick={handleClose} activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Custom Leather</Link></a></li>
+                    
                 </ul>
             </div>
         </div>
