@@ -1,0 +1,52 @@
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 5;
+    background-color: black; /* Add this line */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    color: #f6f6f6;
+    z-index: 5;
+}
+
+.hamburger {
+    display: none;
+    padding: 1rem;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 1rem;
+}
+
+.nav-menu li a {
+    color: #f6f6f6;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 940px) {
+    /* Styles for smaller screens */
+}
+@media screen and (max-width: 495px) {
+    /* Additional styles for even smaller screens */
+}

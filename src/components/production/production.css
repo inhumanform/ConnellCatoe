@@ -1,0 +1,33 @@
+.production {
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/suitcase.png') no-repeat center center/cover;
+}
+
+.production .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.production .top {
+    margin-top: 7rem;
+    color: #f6f6f6;
+}
+.production .bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width:540px) {
+    .production .container .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}

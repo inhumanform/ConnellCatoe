@@ -1,0 +1,90 @@
+/* .testimonials {
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/book2.png') no-repeat center center/cover;
+}
+
+.testimonials .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials .top {
+    margin-top: 7rem;
+    color: #f6f6f6;
+}
+.testimonials .bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width:540px) {
+    .testimonials .container .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+
+.testimonials {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonials .image {
+    width: 50%;
+    height: 100%;
+    background: url('../../assets/book2.png') no-repeat center center/cover;
+}
+
+.testimonials .text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonials .top {
+    margin-top: 7rem;
+    color: #f6f6f6;
+}
+
+.testimonials .bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width:540px) {
+    .testimonials .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials .image,
+    .testimonials .text {
+        width: 100%;
+        height: auto;
+    }
+}
